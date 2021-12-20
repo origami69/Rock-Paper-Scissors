@@ -1,0 +1,14 @@
+html {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
