@@ -6,18 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
     <title>R.P.S</title>
 </head>
 <!-- Just a game Of Rock Paper Scissors-->
 
 <body>
-    <h1>Huh Whats this? Notices Bulgie Wulgie, UwU, OwO, lets play rock, paper, scissors</h1>
+
+    <header>
+        <h1>Huh Whats this? Notices Bulgie Wulgie, UwU, OwO, lets play rock, paper, scissors, first to 5 points wins!</h1>
+    </header>
     <div class='container'>
-        <button class='rock' type='button'><img style="display:inline; width: 200px; height:auto;" src='istockphoto-1288973456-170667a.jpg'></button>
-        <button class='paper' type='button'><img style="display:inline; width: 200px; height:auto;" src='design-space-paper-textured-background_53876-42312.webp'></button>
-        <button class='scissors' type='button'><img style="display:inline; width: 250px; height:auto;" src='41VKBC4wUHS._AC_SL1000_.jpg'></button>
+        <button id='rock' class='choice'><img style="display:inline; width: 200px; height:auto;" src='istockphoto-1288973456-170667a.jpg '></button>
+        <button id='paper' class='choice'><img style="display:inline; width: 200px; height:auto;" src=' design-space-paper-textured-background_53876-42312.webp '></button>
+        <button id='scissors' class='choice'><img style="display:inline; width: 250px; height:auto;" src='41VKBC4wUHS._AC_SL1000_.jpg '></button>
     </div>
+    <div class='container2'>
+        <h3>Computer Points =
+            <span id='CScore' class='score'>0</span></h3>
+        <h3>Human Points =
+            <span id='HScore' class='score'>0</span></h3>
+    </div>
+    <div id='winner' class='end'>Outcome</div>
+    <div class='done' id='finalResult'>Winner</div>
+    <script src="script.js">
+    </script>
 </body>
+
 
 </html>
