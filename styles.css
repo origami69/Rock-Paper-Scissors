@@ -12,3 +12,26 @@ h1 {
     justify-content: center;
     color: white;
 }
+
+h3 {
+    color: white;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.done {
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 30px;
+}
